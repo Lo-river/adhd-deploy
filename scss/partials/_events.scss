@@ -9,7 +9,7 @@
 
     h2 {
         font-size: 16px;
-        color: lighten($secondary-textcolor, 10%);
+        color: lighten(#9D9D9D, 10%);
         font-weight: normal;
         letter-spacing: 0.5px; 
         margin-bottom: 10px;
@@ -53,15 +53,15 @@ main {
 .date {
     font-size: 16px;
     font-weight: 100;
-    font-family: $primary-font;
-    color: lighten($secondary-textcolor, 10%);
+    font-family: 'Roboto';
+    color: lighten(#9D9D9D, 10%);
     margin-bottom: 5px;
 }
 
 // Huvudrubriken "Events"
 h1 {
     font-size: 35px;
-    font-family: $primary-font;
+    font-family: 'Roboto';
     font-variation-settings: "wght" 400;
     margin-bottom: 15px;
 }
@@ -225,7 +225,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $card-backgroundcolor;
+    background-color:#FBFAF7;
     padding: 12px 15px; 
     border-radius: 12px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -247,7 +247,7 @@ h1 {
 
     .event-date {
         font-size: 14px;
-        color: $secondary-textcolor;
+        color: #9D9D9D;
         margin-top: 4px;
     }
 
@@ -271,7 +271,7 @@ h1 {
     }
 
     &.finished-event {
-        background-color: $primary-backgroundcolor;
+        background-color: #F3F2EE;
 
         h3 {
             text-decoration: line-through;
@@ -294,7 +294,7 @@ h1 {
     z-index: 1000;
 
     .event-popup-content {
-        background: $card-backgroundcolor; 
+        background: #FBFAF7; 
         padding: 20px;
         border-radius: 10px;
         text-align: left;
@@ -356,7 +356,7 @@ h1 {
 
     // Save-knapp
     button {
-        background: $yellow-detailcolor;
+        background: #FFBC2C;
         color: #fff;
         padding: 10px 15px;
         border: none;

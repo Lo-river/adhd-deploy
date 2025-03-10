@@ -13,3 +13,6 @@ Thumbs.db
 
 # Ignorera allt i en eventuell "dist"-mapp om ni kompilerar något
 /dist/
+
+#Testa om stylingen funkar
+echo "scss/" >> .gitignore
